@@ -1,0 +1,15 @@
+{
+  "number": 21,
+  "name": "AdaptiveExitLab",
+  "short": "Trained early-exit classifier",
+  "summary": "Train two MLP heads and route only uncertain evaluation rows to the deeper stage.",
+  "profile": "deep",
+  "timeout": 600,
+  "scope": "Real trained two-stage MLP on synthetic numeric alerts, validation-selected confidence. Fraction exiting is not a measured latency speedup.",
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "Data Processing",
+    "Software Testing"
+  ]
+}

@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AdaptiveExitLab</title><style>body{font:16px system-ui;background:#0c1524;color:#ecf4ff;max-width:1100px;margin:40px auto;padding:24px}h1{font-size:40px}p{line-height:1.6;color:#bfd0df}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#14283b;border-radius:16px;padding:24px}strong{color:#58e0b8}</style><h1>AdaptiveExitLab</h1><p><strong>Measured local experiment</strong> · 2026-11-20T04:38:23Z</p><p>Real trained two-stage MLP on synthetic numeric alerts, validation-selected confidence. Fraction exiting is not a measured latency speedup.</p><pre>{
+  &quot;adaptive&quot;: {
+    &quot;accuracy&quot;: 0.82,
+    &quot;precision&quot;: 0.801980198019802,
+    &quot;recall&quot;: 0.8350515463917526,
+    &quot;f1&quot;: 0.8181818181818183,
+    &quot;average_precision&quot;: 0.8595332128222047,
+    &quot;fp&quot;: 20,
+    &quot;fn&quot;: 16,
+    &quot;cases&quot;: 200
+  },
+  &quot;full_depth&quot;: {
+    &quot;accuracy&quot;: 0.805,
+    &quot;precision&quot;: 0.7959183673469388,
+    &quot;recall&quot;: 0.8041237113402062,
+    &quot;f1&quot;: 0.8,
+    &quot;average_precision&quot;: 0.8398101217798026,
+    &quot;fp&quot;: 20,
+    &quot;fn&quot;: 19,
+    &quot;cases&quot;: 200
+  },
+  &quot;selected_confidence&quot;: 0.6,
+  &quot;early_exit_fraction&quot;: 0.9200000166893005,
+  &quot;late_rows_computed&quot;: 16,
+  &quot;checks&quot;: [
+    &quot;Late stage only executes uncertain rows&quot;
+  ],
+  &quot;scope&quot;: &quot;Real trained two-stage MLP on synthetic numeric alerts, validation-selected confidence. Fraction exiting is not a measured latency speedup.&quot;
+}</pre><p>Authored small fixtures unless explicitly stated otherwise. Inspect errors, assumptions and limitations before sharing. No automatic external actions.</p></html>
